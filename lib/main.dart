@@ -29,8 +29,8 @@ class MyApp extends StatelessWidget {
           Breakpoint(start: 1921, end: double.infinity, name: '4K'),
         ], child: child!),
         home: const HomeScreen(),
-        theme: AppTheme.lightTheme(),
-        darkTheme: AppTheme.darkTheme(),
+        theme: AppTheme.lightTheme(context),
+        darkTheme: AppTheme.darkTheme(context),
         themeMode: homeProvider.isDarkMode ? ThemeMode.dark : ThemeMode.light,
         debugShowCheckedModeBanner: false,
       );

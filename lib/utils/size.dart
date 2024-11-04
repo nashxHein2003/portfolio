@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+
 class AppSize {
   static const double s_12 = 12.0;
   static const double s_16 = 16.0;
@@ -15,3 +18,12 @@ class AppSize {
   static const double s_96 = 96.0;
   static const double s_128 = 128.0;
 }
+
+const kEmptyWidget = SizedBox.shrink();
+const kGap0 = Gap(0);
+const kGap5 = Gap(5);
+const kGap10 = Gap(10);
+const kGap15 = Gap(15);
+const kGap20 = Gap(20);
+const kGap25 = Gap(25);
+const kGap30 = Gap(30);
